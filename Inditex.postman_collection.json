@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "3b3ba93f-5e48-4ea3-80b6-77957acbdb93",
+		"name": "Inditex",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4265553"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/v1/price/1/35455/2020-06-14T10:00:00+00:00",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/price/1/35455/2020-06-14T10:00:00+00:00",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"price",
+						"1",
+						"35455",
+						"2020-06-14T10:00:00+00:00"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
